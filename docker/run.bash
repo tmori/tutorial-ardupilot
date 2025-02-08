@@ -6,3 +6,4 @@ docker run -it --rm \
   -p 14550:14550 \
   ardupilot-sitl
 
+#./Tools/autotest/sim_vehicle.py -v ArduCopter --console --map
