@@ -69,5 +69,7 @@ ENV PATH=$PATH:/usr/local/bin
 RUN ./waf configure --board sitl
 RUN ./waf copter
 
+RUN apt-get install -y netcat-openbsd
+
 # SITLを実行できるようにする
 CMD ["/bin/bash"]
